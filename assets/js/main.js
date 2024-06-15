@@ -40,6 +40,7 @@ window.addEventListener("scroll", blurHeader);
 /*=============== EMAIL JS ===============*/
 const contactForm = document.getElementById("contact-form"),
   contactMessage = document.getElementById("contact-message");
+emailjs.init("service_z8ytak5");
 const sendEmail = (e) => {
   e.preventDefault();
 
