@@ -504,6 +504,9 @@ svg {
 }
 
 .projects__button {
+  background-color: var(--first-color);
+  padding: 0.2rem 1.5rem;
+  border-radius: 1.5rem;
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
