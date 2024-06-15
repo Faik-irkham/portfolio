@@ -45,7 +45,7 @@ const sendEmail = (e) => {
   e.preventDefault();
 
   // serviceID - templateID - #form - publicKey
-  emailJs
+  emailjs
     .sendForm(
       "service_z8ytak5",
       "template_gyyeo8r",
@@ -116,4 +116,4 @@ const sr = ScrollReveal({
   // reset: true,
 });
 
-sr.reveal()
+sr.reveal();
